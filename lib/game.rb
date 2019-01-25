@@ -42,7 +42,8 @@ end
 
 def winner
   if won?
- Player.token 
+  win = won?
+  @board.cells[win[0]]
   end
 
 end
