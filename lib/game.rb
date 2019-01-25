@@ -41,8 +41,8 @@ def over?
 end
 
 def winner
-  if Player = won?
-    @board[player[0]]
+  if won?
+  @board.cells[win[0]]
   end
 
 end
