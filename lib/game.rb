@@ -42,8 +42,8 @@ end
 
 def winner
   if won?
-  card = won?
-  @board.cells[card[0]]
+  xo = won?
+  @board.cells[xo[0]]
 else
   nil
   end
