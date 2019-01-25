@@ -45,8 +45,9 @@ def winner
   xo = won?
   @board.cells[xo[0]]
 else
-  nil
-  end
+  return nil
+
+end
 
 end
 
