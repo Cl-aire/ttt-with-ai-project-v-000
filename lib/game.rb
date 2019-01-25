@@ -32,6 +32,7 @@ def won?
    @board[player[0]]
 end
 end
+end 
 
 
 def draw
