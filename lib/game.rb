@@ -39,4 +39,11 @@ end
 def over?
   won? || draw?
 end
+
+def winner
+  if player = won?
+    @board[player[0]]
+
+end
+
 end
