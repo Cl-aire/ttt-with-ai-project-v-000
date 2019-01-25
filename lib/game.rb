@@ -28,6 +28,7 @@ def won?
   WIN_COMBINATIONS.detect do |win|
    @board.cells[win[0]] == @board.cells[win[1]] &&
    @board.cells[win[1]] == @board.cells[win[2]] &&
+   return win
 end
 end
 
