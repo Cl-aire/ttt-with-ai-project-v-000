@@ -43,6 +43,7 @@ end
 def winner
   if player = won?
     @board[player[0]]
+  end 
 
 end
 
