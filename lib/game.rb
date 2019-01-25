@@ -29,15 +29,14 @@ def won?
    @board.cells[win[1]] == @board.cells[win[2]] &&
    win
 end
-end 
+end
 
 
-
-def draw
+def draw?
   @board.full?  && !won?
 end
 
-def over
+def over?
   won? || draw?
 end
 end
