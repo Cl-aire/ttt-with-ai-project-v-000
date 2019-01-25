@@ -29,6 +29,9 @@ def won?
    @board.cells[win[1]] == @board.cells[win[2]] &&
    return win
 end
+end 
+end 
+
 
 def draw
   @board.full?  && !won?
